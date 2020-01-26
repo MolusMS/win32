@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Multiple Levels of Pointers
 
-When there are multiple levels of pointers, the attributes are associated with the pointer closest to the variable name. The client is still responsible for allocating any memory associated with the response.
+When there are multiple levels of pointers, the attributes are associated with the pointer closest to the variable name. The client is still responsible for releasing any memory associated with the response.
 
 The following example allows the stub to call the server without knowing in advance how much data will be returned:
 
